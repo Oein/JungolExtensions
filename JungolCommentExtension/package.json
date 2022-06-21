@@ -1,7 +1,7 @@
 {
   "name": "jungolcommentextension",
   "version": "1.0.0",
-  "description": "![전골 Extension 로고](https://github.com/Oein/JungolThemeExtension/blob/main/ExtensionBuilded/images/128.png?raw=true)",
+  "description": "![전골 Extension 로고](https://github.com/OeinJungolExtensionsblob/main/ExtensionBuilded/images/128.png?raw=true)",
   "main": "content.js",
   "dependencies": {
     "acorn": "^8.7.0",
