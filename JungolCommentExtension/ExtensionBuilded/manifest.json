@@ -1,0 +1,16 @@
+{
+  "name": "전골 댓글 확장팩",
+  "description": "전골 문제들에 댓글 기능을 추가합니다!",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "permissions": ["storage", "unlimitedStorage"],
+  "content_scripts": [
+    {
+      "matches": ["http://jungol.co.kr/*", "http://www.jungol.co.kr/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "128": "/images/128.png"
+  }
+}

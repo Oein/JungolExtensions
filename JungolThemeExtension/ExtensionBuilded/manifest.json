@@ -1,0 +1,22 @@
+{
+  "name": "전골 테마 확장팩",
+  "description": "구데기 컵에서나 볼수있는 전골의 테마를 마음데로 바꿀수 있게 해줍니다.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "permissions": ["scripting", "storage", "unlimitedStorage"],
+  "content_scripts": [
+    {
+      "matches": ["http://jungol.co.kr/*", "http://www.jungol.co.kr/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "/images/128.png"
+    }
+  },
+  "icons": {
+    "128": "/images/128.png"
+  }
+}

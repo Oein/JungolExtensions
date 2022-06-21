@@ -1,0 +1,19 @@
+{
+  "name": "전골 문제 랭크 확장팩",
+  "description": "전골에 문제 랭크 기능을 추가합니다!",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "permissions": ["storage", "unlimitedStorage"],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://jungol.co.kr/bbs/board.php*",
+        "http://www.jungol.co.kr/bbs/board.php*"
+      ],
+      "js": ["rank.js"]
+    }
+  ],
+  "icons": {
+    "128": "/images/128.png"
+  }
+}

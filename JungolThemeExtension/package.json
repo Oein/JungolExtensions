@@ -1,0 +1,23 @@
+{
+  "name": "jun.gol_themeextension",
+  "version": "1.0.0",
+  "description": "전골의 테마를 내 마음데로! 바꿀수 있게 해주는 Extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oein/JungolThemeExtension.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oein/JungolThemeExtension/issues"
+  },
+  "homepage": "https://github.com/Oein/JungolThemeExtension#readme",
+  "devDependencies": {
+    "javascript-obfuscator": "^4.0.0"
+  }
+}

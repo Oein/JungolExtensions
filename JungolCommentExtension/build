@@ -1,0 +1,2 @@
+cp Extension/manifest.json ExtensionBuilded/manifest.json
+node builder/index.js

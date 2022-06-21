@@ -1,0 +1,23 @@
+{
+  "name": "전골 자유게시판 확장팩",
+  "description": "전골에 자유게시판 기능을 추가합니다!",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "permissions": ["storage", "unlimitedStorage"],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://jungol.co.kr/workbook/?freeb",
+        "http://www.jungol.co.kr/workbook/?freeb"
+      ],
+      "js": ["content.js"]
+    },
+    {
+      "matches": ["http://jungol.co.kr/*", "http://www.jungol.co.kr/*"],
+      "js": ["ct2.js"]
+    }
+  ],
+  "icons": {
+    "128": "/images/128.png"
+  }
+}
