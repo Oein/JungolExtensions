@@ -1,6 +1,6 @@
 # 전골 Extension
 
-![전골 Extension 로고](https://github.com/OeinJungolExtensionsblob/main/ExtensionBuilded/images/128.png?raw=true)
+![전골 Extension 로고](https://github.com/Oein/JungolExtensions/blob/main/JungolAllInOneExtension/ExtensionBuilded/images/128.png?raw=true)
 
 ## 구데기 컵에서나 볼수있는 전골의 테마를 마음데로 바꿀수 있게 해줍니다.
 

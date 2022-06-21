@@ -1,6 +1,6 @@
 # 전골 Extension
 
-![전골 Extension 로고](https://github.com/OeinJungolExtensionsblob/main/ExtensionBuilded/images/128.png?raw=true)
+![전골 Extension 로고](https://github.com/Oein/JungolExtensions/blob/main/JungolAllInOneExtension/ExtensionBuilded/images/128.png?raw=true)
 
 ## 전골에 문제 랭크 기능을 추가합니다!
 

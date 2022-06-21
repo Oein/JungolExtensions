@@ -1,6 +1,6 @@
 # 전골 All in One Extension
 
-![전골 Extension 로고](https://github.com/OeinJungolExtensionsblob/main/ExtensionBuilded/images/128.png?raw=true)
+![전골 Extension 로고](https://github.com/Oein/JungolExtensions/blob/main/JungolAllInOneExtension/ExtensionBuilded/images/128.png?raw=true)
 
 ## 아래의 모든 전골 Extension들의 기능들을 하나의 Extension으로 사용할수 있습니다.
 
