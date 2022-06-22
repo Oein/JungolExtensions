@@ -23,6 +23,10 @@ client.once("ready", (bot) => {
   commandBuild.setName("vote");
   commandBuild.setDescription("어떤 문제의 랭크를 투표하는 명령어");
   commandBuild.addStringOption((opt) => {
+    opt.setName("question");
+    opt.setDescription("투표할 문제");
+    opt.setRequired(true);
+    opt.addChoices([{}])
     return opt;
   });
 });
