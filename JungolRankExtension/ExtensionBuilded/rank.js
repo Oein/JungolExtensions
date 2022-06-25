@@ -7,6 +7,8 @@ function getParmas(name) {
   return params[name];
 }
 
+const jungolACURL = "https://jungol-ac.vercel.app";
+
 console.log(`
           [R 전골 랭킹 확장팩]          
    저의 Extension을 사용해주셔서 감사합니다.
@@ -64,17 +66,17 @@ function makeRank() {
     const quesName = document
       .querySelector("#bo_v_title")
       .innerText.split(":")[0];
-    fetch(
-      "https://jungol-ac.vercel.app/api/rank/get/" + quesName.toString().trim()
-    ).then((data) => {
-      data.json().then((json) => {
-        const rankImage = RankImages[json.ProblemRank];
-        h1.innerHTML =
-          `<img src="${rankImage}" alt="Unknown Rank" style="width: 28px; height: 28px;" />` +
-          h1.innerHTML;
-        console.log("[R 전골 랭킹 확장팩] 랭크 추가 완료!");
-      });
-    });
+    fetch(jungolACURL + "/api/rank/get/" + quesName.toString().trim()).then(
+      (data) => {
+        data.json().then((json) => {
+          const rankImage = RankImages[json.ProblemRank];
+          h1.innerHTML =
+            `<img src="${rankImage}" alt="Unknown Rank" style="width: 28px; height: 28px;" />` +
+            h1.innerHTML;
+          console.log("[R 전골 랭킹 확장팩] 랭크 추가 완료!");
+        });
+      }
+    );
 
     return;
   }
@@ -90,23 +92,22 @@ function makeRank() {
     const td1_div = td1.querySelector("div");
 
     console.log(problemName);
-    fetch(
-      "https://jungol-ac.vercel.app/api/rank/get/" +
-        problemName.toString().trim()
-    ).then((data) => {
-      data.json().then((json) => {
-        const rankImage = RankImages[json.ProblemRank];
-        if (td1_div != null) {
-          td1_div.style.display = "inline";
-          td1_div.innerHTML = `<img src="${rankImage}" alt="Unknown Rank" style="width: 15px; height: 15px;" />`;
-        } else {
-          td1.innerHTML =
-            `<img src="${rankImage}" alt="Unknown Rank" style="width: 15px; height: 15px;" />` +
-            td1.innerHTML;
-        }
-        console.log("[R 전골 랭킹 확장팩] 랭크 추가 완료!");
-      });
-    });
+    fetch(jungolACURL + "/api/rank/get/" + problemName.toString().trim()).then(
+      (data) => {
+        data.json().then((json) => {
+          const rankImage = RankImages[json.ProblemRank];
+          if (td1_div != null) {
+            td1_div.style.display = "inline";
+            td1_div.innerHTML = `<img src="${rankImage}" alt="Unknown Rank" style="width: 15px; height: 15px;" />`;
+          } else {
+            td1.innerHTML =
+              `<img src="${rankImage}" alt="Unknown Rank" style="width: 15px; height: 15px;" />` +
+              td1.innerHTML;
+          }
+          console.log("[R 전골 랭킹 확장팩] 랭크 추가 완료!");
+        });
+      }
+    );
   }
 }
 
