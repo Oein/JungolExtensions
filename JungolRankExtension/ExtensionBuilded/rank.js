@@ -7,7 +7,7 @@ function getParmas(name) {
   return params[name];
 }
 
-const jungolACURL = "https://jungol-ac.vercel.app";
+const jungolACURL = "https://jungoler.vercel.app";
 
 console.log(`
           [R 전골 랭킹 확장팩]          
