@@ -14,7 +14,7 @@
     },
     {
       "matches": ["http://jungol.co.kr/*", "http://www.jungol.co.kr/*"],
-      "js": ["ct2.js"]
+      "js": ["ct2.js", "contentX.js"]
     }
   ],
   "icons": {

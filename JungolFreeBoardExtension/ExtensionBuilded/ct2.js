@@ -107,17 +107,6 @@ let li = document.createElement("li");
 li.className = "gnb_1dli";
 li.style.zIndex = 990;
 
-console.log(`
-          [💬 전골 자유게시판 확장팩]          
-   저의 Extension을 사용해주셔서 감사합니다.
-   Thank you for using my Extension.
-
-   Codes are written by @banana100219.
-     Github : https://github.com/Oein
-   Resources are provided by @sdnight5.
-
-`);
-
 let a = document.createElement("a");
 a.href = "/workbook/?freeb";
 a.target = "_self";
