@@ -2,7 +2,7 @@
 
 ![전골 Extension 로고](https://github.com/Oein/JungolExtensions/blob/main/JungolAllInOneExtension/ExtensionBuilded/images/128.png?raw=true)
 
-## 전골에 자유게시판 기능을 추가합니다!
+## 전골에 소통할수 있는 기능을 추가합니다!
 
 와x100 !, 삭제당한 자유 게시판을 내가 복구했습니다~
 무료 호스팅으로 운영하고 있기 때문에 아래와 같은 문제가 있을수 있습니다.
