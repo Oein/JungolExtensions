@@ -1,7 +1,7 @@
 let x = document.querySelector("#bo_v > h3:nth-child(4)");
 
 console.log(`
-          [💬 전골 댓글 확장팩]          
+           [💬 전골 소통 확장팩]          
    저의 Extension을 사용해주셔서 감사합니다.
    Thank you for using my Extension.
 
