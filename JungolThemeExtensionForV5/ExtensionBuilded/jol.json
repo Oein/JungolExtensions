@@ -1,0 +1,87 @@
+{
+  "header.bg": {
+    "c": "#app > div > header { background: $d!important; }",
+    "n": "Header 배경",
+    "r": "#ffffff"
+  },
+  "header.c": {
+    "c": "#app > div > header > div:nth-child(2) > a { color: $d!important; }",
+    "n": "Header 글씨 색",
+    "r": "#000000"
+  },
+  "header.ic": {
+    "c": "#app > div > header { color: $d!important; }",
+    "n": "Header 아이콘 색",
+    "r": "#000000"
+  },
+  "header.m.c": {
+    "c": "#app > div > header > div:nth-child(3) > main > div:nth-child(3) , #app > div > header > div:nth-child(4) { color: $d!important; }",
+    "n": "Header 메뉴 글씨 색",
+    "r": "#000000"
+  },
+  "header.m.bg": {
+    "c": "#app > div > header > div:nth-child(3) > main > div:nth-child(3) , #app > div > header > div:nth-child(4) { background: $d!important; }",
+    "n": "Header 메뉴 배경 색",
+    "r": "#ffffff"
+  },
+  "header.m.ic": {
+    "c": "#app > div > header > div:nth-child(3) > main > div:nth-child(3) > div > span:nth-child(1) > div:nth-child(1)> span , #app > div > header > div:nth-child(3) > main > div:nth-child(3) > div > main > div > span > span , #app > div > header > div:nth-child(4) > span:nth-child(1) > div:nth-child(1) > span , #app > div > header > div:nth-child(4) > div > main > div > span > span { color: $d!important; }",
+    "n": "Header 메뉴 아이콘 색",
+    "r": "#000000"
+  },
+  "body.bg": {
+    "c": "body , #app > div > div:nth-child(4) > main > main > div:nth-child(1) > div:nth-child(2) > div > main > div:nth-child(1) , #app > div > div:nth-child(3) { background: $d!important; }",
+    "n": "배경색",
+    "r": "#ffffff"
+  },
+  "cat.bg": {
+    "c": "#app > div > div:nth-child(4) > div:nth-child(1) > main > div > div > main > div:nth-child(2) { background: $d!important; }",
+    "n": "카테고리 이름 배경 색",
+    "r": "#e0e0e0"
+  },
+  "cat.c": {
+    "c": "#app > div > div:nth-child(4) > div:nth-child(1) > main > div > div > main > div:nth-child(2) { color: $d!important; }",
+    "n": "카테고리 이름 글씨 색 or 문제 이름 글씨 색",
+    "r": "#000000"
+  },
+  "cat.ic": {
+    "c": "#app > div > div:nth-child(4) > div:nth-child(1) > main > div > div > main > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > span , #app > div > div:nth-child(4) > div:nth-child(1) > main > div > div > main > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > span , #app > div > div:nth-child(4) > div:nth-child(1) > main > div > div > main > div:nth-child(1) > div > div:nth-child(1) > span { color: $d!important; }",
+    "n": "카테고리 아이콘 색",
+    "r": "#000000"
+  },
+  "scat.c": {
+    "c": "#app > div > div:nth-child(4) > div:nth-child(4) > main > div > div > main > div:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div > a { color: $d!important; }",
+    "n": "서브 카테고리 글씨 색",
+    "r": "#000000"
+  },
+  "problem.sub.bg": {
+    "c": "#app > div > div:nth-child(4) > main > main > div > div { background: $d!important; }",
+    "n": "문제 서브 카테고리 배경 색",
+    "r": "#ffffff"
+  },
+  "problem.sub.c": {
+    "c": "#app > div > div:nth-child(4) > main > main > div > div { color: $d!important; }",
+    "n": "문제 서브 카테고리 글씨 색 or 문제 본문 글씨 색",
+    "r": "#000000"
+  },
+  "problem.sub.table.bg": {
+    "c": "#app > div > div:nth-child(4) > main > main > div > div:nth-child(2) > div > main > header > table > thead > tr { background: $d!important; }",
+    "n": "문제 서브 카테고리 리스트 header 배경 색",
+    "r": "#ffffff"
+  },
+  "problem.sub.table.c": {
+    "c": "#app > div > div:nth-child(4) > main > main > div > div:nth-child(2) > div > main > header > table > thead > tr { color: $d!important; }",
+    "n": "문제 서브 카테고리 리스트 header 글씨 색",
+    "r": "#000000"
+  },
+  "progress.notfilled": {
+    "c": ".progressBar { background: $d!important; }",
+    "n": "Progress Bar 채워지지 않은 곳의 색",
+    "r": "#e0e0e0"
+  },
+  "progress.filled": {
+    "c": ".progressIndicator { background: $d!important; }",
+    "n": "Progress Bar 채워진 곳의 색",
+    "r": "#2c2963"
+  }
+}

@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        width: 300px;
+        height: 500px;
+        padding: 10px;
+      }
+
+      table {
+        width: 100%;
+        border-top: 1px solid #444444;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border-bottom: 1px solid #444444;
+        padding: 10px;
+      }
+
+      body > table:nth-child(2) > tbody > tr > td {
+        border-bottom: none;
+      }
+
+      body > table:nth-child(2) {
+        border-top: none;
+      }
+
+      input[type="color"] {
+        background: none;
+        border: none;
+        padding: 0px;
+        width: 32px;
+        height: 32px;
+      }
+
+      tr > td:nth-child(2) {
+        width: 20%;
+      }
+
+      * {
+        font-size: 18px;
+      }
+
+      body > table > tbody > tr > td:nth-child(2) {
+        font-size: 14px;
+      }
+
+      table {
+        overflow: auto;
+      }
+
+      textarea {
+        resize: none;
+        font-size: 1px;
+        padding: 0px;
+        margin: 0px;
+        margin: 0px;
+        width: 100%;
+      }
+
+      button {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        font-size: 10px;
+      }
+
+      body > table:nth-child(2) > tbody > tr > td {
+        padding: 5px;
+      }
+
+      body > table:nth-child(2) > tbody > tr > td:nth-child(1) {
+        width: 55%;
+      }
+      body > table:nth-child(2) > tbody > tr > td:nth-child(2) {
+        width: 15%;
+      }
+      body > table:nth-child(2) > tbody > tr > td:nth-child(3) {
+        width: 15%;
+      }
+      body > table:nth-child(2) > tbody > tr > td:nth-child(4) {
+        width: 15%;
+      }
+
+      a {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <header style="text-align: center">
+      <h1>JOL Theme+</h1>
+    </header>
+    <table>
+      <tr>
+        <td>
+          <textarea
+            rows="3"
+            placeholder="Put your theme code here"
+            id="jt"
+          ></textarea>
+        </td>
+        <td>
+          <a id="c">Clear</a>
+        </td>
+        <td>
+          <a id="l">Load</a>
+        </td>
+        <td>
+          <a id="s">Stringify</a>
+        </td>
+      </tr>
+    </table>
+    <table style="margin-bottom: 10px">
+      <thead>
+        <tr>
+          <td>Name</td>
+          <td>Color</td>
+        </tr>
+      </thead>
+      <tbody id="tb"></tbody>
+    </table>
+    <div style="font-size: 15px">&nbsp;</div>
+
+    <script src="./popup.js"></script>
+  </body>
+</html>
