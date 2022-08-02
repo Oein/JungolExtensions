@@ -30,7 +30,7 @@
     "r": "#000000"
   },
   "body.bg": {
-    "c": "body , #app > div > div:nth-child(4) > main > main > div:nth-child(1) > div:nth-child(2) > div > main > div:nth-child(1) , #app > div > div:nth-child(3) { background: $d!important; }",
+    "c": "body , #app > div > div:nth-child(4) > main > main > div:nth-child(1) > div:nth-child(2) > div > main > div:nth-child(1) , #app > div > div:nth-child(3) , #app > div > div:nth-child(4) > main > main > div > div { background: $d!important; }",
     "n": "배경색",
     "r": "#ffffff"
   },
@@ -53,11 +53,6 @@
     "c": "#app > div > div:nth-child(4) > div:nth-child(4) > main > div > div > main > div:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div > a { color: $d!important; }",
     "n": "서브 카테고리 글씨 색",
     "r": "#000000"
-  },
-  "problem.sub.bg": {
-    "c": "#app > div > div:nth-child(4) > main > main > div > div { background: $d!important; }",
-    "n": "문제 서브 카테고리 배경 색",
-    "r": "#ffffff"
   },
   "problem.sub.c": {
     "c": "#app > div > div:nth-child(4) > main > main > div > div { color: $d!important; }",

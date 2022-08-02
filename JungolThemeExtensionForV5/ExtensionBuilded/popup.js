@@ -139,6 +139,7 @@ document.getElementById("c").addEventListener("click", () => {
 });
 
 document.getElementById("l").addEventListener("click", () => {
+  saveSetting(document.getElementById("jt").value);
   main(jl, JT_parse(document.getElementById("jt").value));
 });
 
