@@ -62,7 +62,12 @@ function log(str) {
 log("Theme extension enabled");
 
 function main(a, b) {
+  let border_r = "10px";
   let css = "";
+  css += `thead > tr > th:nth-child(1) { border-radius: ${border_r} 0px 0px 0px; }${"\n"}`;
+  css += `thead > tr > th:last-child { border-radius: 0px ${border_r} 0px 0px; }${"\n"}`;
+  css += `tbody > tr:last-child > td:nth-child(1) { border-radius: 0px 0px ${border_r} 0px; }${"\n"}`;
+  css += `tbody > tr:last-child > td:last-child { border-radius: 0px 0px 0px ${border_r}; }${"\n"}`;
   let style = document.createElement("style");
   let bk = Object.keys(b);
 
