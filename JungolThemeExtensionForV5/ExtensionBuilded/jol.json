@@ -34,6 +34,16 @@
     "n": "배경색",
     "r": "#ffffff"
   },
+  "problem.c": {
+    "c": "#app > div > div:nth-child(4) > main > main > div > div { color: $d!important; }",
+    "n": "문제 본문 글씨 색",
+    "r": "#000000"
+  },
+  "problem.uic": {
+    "c": "#app > div > div:nth-child(4) > main > main > main { color: $d!important; }",
+    "n": "문제 설명 아이콘 & 글씨 색 [ex : 메모리 제한]",
+    "r": "#000000"
+  },
   "cat.bg": {
     "c": "#app > div > div:nth-child(4) > div:nth-child(1) > main > div > div > main > div:nth-child(2) { background: $d!important; }",
     "n": "카테고리 이름 배경 색",
@@ -49,24 +59,19 @@
     "n": "카테고리 아이콘 색",
     "r": "#000000"
   },
-  "scat.c": {
-    "c": "#app > div > div:nth-child(4) > div:nth-child(4) > main > div > div > main > div:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div > a { color: $d!important; }",
-    "n": "서브 카테고리 글씨 색",
-    "r": "#000000"
-  },
   "problem.sub.c": {
-    "c": "#app > div > div:nth-child(4) > main > main > div > div { color: $d!important; }",
-    "n": "문제 서브 카테고리 글씨 색 or 문제 본문 글씨 색",
+    "c": "td { color: $d!important; }",
+    "n": "table 글씨 색",
     "r": "#000000"
   },
   "problem.sub.table.bg": {
-    "c": "#app > div > div:nth-child(4) > main > main > div > div:nth-child(2) > div > main > header > table > thead > tr { background: $d!important; }",
-    "n": "문제 서브 카테고리 리스트 header 배경 색",
+    "c": "thead { background: $d!important; }",
+    "n": "thead 배경 색",
     "r": "#ffffff"
   },
   "problem.sub.table.c": {
-    "c": "#app > div > div:nth-child(4) > main > main > div > div:nth-child(2) > div > main > header > table > thead > tr { color: $d!important; }",
-    "n": "문제 서브 카테고리 리스트 header 글씨 색",
+    "c": "thead > tr > th { color: $d!important; }",
+    "n": "thead 글씨 색",
     "r": "#000000"
   },
   "progress.notfilled": {
