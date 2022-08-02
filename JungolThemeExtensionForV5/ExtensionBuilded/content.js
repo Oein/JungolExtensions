@@ -68,7 +68,10 @@ function main(a, b) {
   css += `thead > tr > th:last-child { border-radius: 0px ${border_r} 0px 0px; }${"\n"}`;
   css += `tbody > tr:last-child > td:nth-child(1) { border-radius: 0px 0px ${border_r} 0px; }${"\n"}`;
   css += `tbody > tr:last-child > td:last-child { border-radius: 0px 0px 0px ${border_r}; }${"\n"}`;
-  css += `#app > div > div:nth-child(4) > main > main > main > div:nth-child(1) , #app > div > div:nth-child(4) > main > main > div > div > div > main > * , #app > div > div:nth-child(4) > main > main > div:nth-child(2) > div:nth-child(2) > div > main > div:nth-child(1) { background: none!important; }${"\n"}`;
+  css += `#app > div > div:nth-child(4) > main > main > main > div:nth-child(1) , `;
+  css += `#app > div > div:nth-child(4) > main > main > div > div > div > main > * , `;
+  css += `#app > div > div:nth-child(4) > main > main > div:nth-child(2) > div:nth-child(2) > div > main > div:nth-child(1) `;
+  css += `{ background: none!important; }${"\n"}`;
   let style = document.createElement("style");
   let bk = Object.keys(b);
 
